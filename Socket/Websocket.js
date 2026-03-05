@@ -1,9 +1,9 @@
-import express from 'express';
-import http from 'https';
-import { Server } from 'socket.io' ;
-import readline from 'readline';
-import { createServer } from 'http';
-import { read } from 'fs';
+const express = require('express')
+const http = require('http')
+import server from 'socket.io'
+const readline = require('readline')
+// import { createServer } from 'http';
+// import { read } from 'fs';
 const path = require('path');
 
 
