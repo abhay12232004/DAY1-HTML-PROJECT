@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- powerful tool -->
+     <!-- 1D layout method -->
+
+     <!-- important!!! -->
+      <!-- parent container is known as flex container.
+      items in flex container is known as flex items.
+      horizonal line is known as main axis and vertical line is known as cross axis . -->
+    
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 5px solid black;
+            display: flex;
+            /* by default sab row ma hoga is leye hum use kar rahe hai  */
+            flex-direction: column;
+            /* ye is leye ke kahi space kam hogi tu use screen par sahi se rakhne ke leye */
+            flex-wrap:wrap;
+            justify-content: center;
+
+            /* The flex-flow property is a shorthand property for setting both the flex-direction and flex-wrap properties.
+ Example:
+.flex-container {
+  display: flex;
+  flex-flow: row wrap */
+  /* align-items hamesha cross axis use hota hai */
+           align-items: center;
+}
+        .box{
+            height: 200px;
+            width: 100px;
+            border: 2px solid black;
+            margin: 10px;
+            padding: 10px;
+
+        }
+        #box1{
+            background-color: blue;
+            
+            
+        }
+        #box2{
+            background-color: rgb(255, 0, 195);
+        }
+        #box3{
+            background-color: rgb(72, 255, 0);
+        }
+        #box4{
+            background-color: rgb(255, 0, 8);
+        }
+
+        
+    </style>
+</head>
+<body><div class="container">
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</div>
+</body>
+</html>

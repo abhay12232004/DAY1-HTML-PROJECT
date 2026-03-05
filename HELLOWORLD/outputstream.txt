@@ -1,0 +1,5 @@
+Hello world this is by using write stream line no.1 
+Hello world this is by using write stream line no.2 
+Hello world this is by using write stream line no.3 
+Hello world this is by using write stream line no.4 
+Hello world this is by using write stream line no.5 

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    background: #060606;
+    color: #fff;
+    padding: 1rem;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 20px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-links a:hover {
+    color: #ffa500;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    color: #100808;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Section Styles */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+.about-section, .categories-section, .recipes-section, .contact-section {
+    margin: 40px 0;
+}
+.category {
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+form button {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background: #ffa500;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
