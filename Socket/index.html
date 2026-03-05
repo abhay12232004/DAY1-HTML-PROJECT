@@ -11,6 +11,19 @@
     <input type="text" class="inp" placeholder="Tyoe value ...">
     <button onclick="send()">Send</button>
 
-    <script src="/socke"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const socket = io();
+        function send(){
+            const value = document.querySelector('inp').value;
+            socket.emit('client-msg',value);
+            document.querySelector('inp').value='';
+
+        }
+
+        socket.on('server-msg',(data)=>{
+            document.querySelector('display').innerText = data;
+        })
+    </script>
 </body>
 </html>
