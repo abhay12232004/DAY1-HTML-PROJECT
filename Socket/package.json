@@ -4,13 +4,12 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "Websocket.js",
-  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type":"module" 
-  
-  
+  "dependencies": {
+    "cookie-parser": "^1.4.7"
+  }
 }
